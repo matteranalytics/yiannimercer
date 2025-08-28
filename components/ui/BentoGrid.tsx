@@ -1,4 +1,6 @@
 import { cn } from "@/lib/utils";
+import { BackgroundGradientAnimation } from "./GradientBg";
+import { GridGlobe } from "./GridGlobe";
 
 export const BentoGrid = ({
   className,
@@ -57,7 +59,7 @@ export const BentoGridItem = ({
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
-            {/* add img divs */}
+      {/* add img divs */}
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
@@ -76,20 +78,26 @@ export const BentoGridItem = ({
             <img
               src={spareImg}
               alt={spareImg}
-              //   width={220}
+                // width={220}
               className="object-cover object-center w-full h-full"
             />
           )}
 
         </div>
+        {id === 6 && (
+          <BackgroundGradientAnimation>
+            <div className='z-50 flex item-center justify-center text-white font-bold ' />
+          </BackgroundGradientAnimation>
+        )}
+
         <div
           className={cn(
             titleClassName,
-            "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
+            "group-hover/bento:translate-x-3 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
           )}
         >
           {/* change the order of the title and des, font-extralight, remove text-xs text-neutral-600 dark:text-neutral-300 , change the text-color */}
-          <div className="font-sans font-extralight md:max-w-64 md:text-xs lg:text-sm text-sm text-[#C1C2D3] z-10">
+          <div className="font-sans font-extralight md:max-w-64 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
             {description}
           </div>
 
@@ -99,6 +107,9 @@ export const BentoGridItem = ({
             {title}
           </div>
         </div>
+
+        {id === 2 && <GridGlobe />}
+
       </div>
     </div>
   );

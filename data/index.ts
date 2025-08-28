@@ -18,8 +18,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Data Scientist & ML Engineer by day, aspiring Full-Stack Developer by night",
-    description: "",
+    title: "Real-world projects, real-world results",
+    description: "From nonprofit work to enterprise AI/ML, I bring an enthusiasm for technology & development",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2 lg:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -38,8 +38,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Real-world projects, real-world results",
-    description: "From nonprofit work to enterprise AI/ML, I bring an enthusiasm for technology & development",
+    title: "Data Scientist & ML Engineer by day, aspiring Full-Stack Developer by night",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -54,7 +54,7 @@ export const gridItems = [
     imgClassName: "",
     titleClassName: "justify-start",
     img: "/grid.svg",
-    spareImg: "/b4.svg",
+    spareImg: "/b5.svg",
   },
   {
     id: 6,
