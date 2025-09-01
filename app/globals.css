@@ -1,12 +1,6 @@
 @import "tailwindcss";
 
 /* ========== BASE TOKENS ========== */
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --radius: 0.5rem; /* default radius, adjust as needed */
-}
-
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
