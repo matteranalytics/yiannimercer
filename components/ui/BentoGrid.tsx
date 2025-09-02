@@ -8,6 +8,7 @@ import animationData from '@/data/confetti.json';
 import Lottie from "react-lottie"
 import MagicButton from "@/components/MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
+import { SiNextdotjs, SiPython, SiTypescript, SiReact, SiDjango, SiMongodb } from "react-icons/si";
 
 
 export const BentoGrid = ({
@@ -35,7 +36,6 @@ export const BentoGridItem = ({
   id,
   title,
   description,
-  //   remove unecessary things here
   img,
   imgClassName,
   titleClassName,
@@ -51,8 +51,18 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
 
-    const leftLists = ["NextJS", "Python", "Typescript"];
-    const rightLists = ["MongoDB", "ReactJS", "Django"];
+    // const leftLists = ["NextJS", "Python", "Typescript"];
+    const leftLists = [
+        { name: "NextJS", icon: <SiNextdotjs className="h-10 w-10" /> },
+        { name: "Python", icon: <SiPython className="h-10 w-10" /> },
+        { name: "Typescript", icon: <SiTypescript className="h-10 w-10" /> },
+    ];
+    // const rightLists = ["MongoDB", "ReactJS", "Django"];
+    const rightLists = [
+        { name: "MongoDB", icon: <SiMongodb className="h-10 w-10" /> },
+        { name: "ReactJS", icon: <SiReact className="h-10 w-10" /> },
+        { name: "Django", icon: <SiDjango className="h-10 w-10" /> },
+    ];
 
     const [copied, setCopied] = useState(false);
 
@@ -113,7 +123,6 @@ export const BentoGridItem = ({
         </div>
         {id === 6 && (
           <BackgroundGradientAnimation>
-            <div className='z-20 flex item-center justify-center text-white font-bold' />
           </BackgroundGradientAnimation>
         )}
 
@@ -140,36 +149,34 @@ export const BentoGridItem = ({
 
         {id === 2 && <GridGlobe />}
 
-            {/* Tech stack list div */}
-            {id === 3 && (
-                <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-                    {/* tech stack lists */}
-                    <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                        {leftLists.map((item, i) => (
-                            <span
-                                key={i}
-                                className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                            >
-                    {item}
-                  </span>
-                        ))}
-                        <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
-                    </div>
-                    <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                        <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
-                        {rightLists.map((item, i) => (
-                            <span
-                                key={i}
-                                className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                            >
-                    {item}
-                  </span>
-                        ))}
-                    </div>
+        {/* Tech stack list div */}
+        {id === 3 && (
+            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
+                {/* tech stack lists */}
+                <div className="absolute right-30 lg:right-30 -top-2 lg:-top-6 -translate-y-1/2 flex flex-col gap-4">
+                    {leftLists.map((item, i) => (
+                        <span
+                            key={i}
+                            className="bg-black-100 flex items-center justify-center"
+                        >
+                {item.icon}
+              </span>
+                    ))}
+                    {/*<span className="lg:py-3 lg:px-3 py-4 px-3 rounded-lg text-center bg-black-100"></span>*/}
                 </div>
-            )}
+                <div className="absolute right-10 lg:right-10 top-3 lg:top-6 -translate-y-1/2 flex flex-col gap-4">
+                    {/*<span className="lg:py-3 lg:px-3 py-4 px-3 rounded-lg text-center bg-black-100"></span>*/}
+                    {rightLists.map((item, i) => (
+                        <span
+                            key={i}
+                            className="bg-black-100 flex items-center justify-center"
+                        >
+                {item.icon}
+              </span>
+                    ))}
+                </div>
+            </div>
+        )}
 
             {id === 6 && (
                 <div className="mt-5 relative">

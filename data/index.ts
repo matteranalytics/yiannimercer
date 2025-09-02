@@ -68,38 +68,47 @@ export const gridItems = [
 ];
 
 export const projects = [
-  {
-    id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
-  },
-  {
-    id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
-  },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
-  },
+    {
+        id: 1,
+        title: "CAMP FASD Website Redesign",
+        des: "Led the full redesign of CAMP - A FASD Community's website, improving accessibility & overall UI/UX,",
+        img: "/camp.png",
+        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stripe.svg"],
+        link: "https://fasdcamp.org", // replace if you want to use staging
+    },
+    {
+        id: 2,
+        title: "Camper App & Admin Mgmt Portal",
+        des: "Built a secure multi-tabbed portal using NextJS, Django, MongoDB & Stripe to manage camper applications, emergency contacts, and admin management with payment capabilities.",
+        // img: "/campapp.svg",
+        iconLists: ["/re.svg", "/tail.svg", "/django.svg", "/mongodb.svg", "/stripe.svg"],
+        // link: "/", // Commented out link means WIP and link will come soon
+    },
+    {
+        id: 5,
+        title: "OneView",
+        des: "Building a full-stack SaaS app to unify brokerage, IRA, HSA, and 401k accounts into a single dashboard, with Stripe payments and subscription tiers.",
+        // img: "/oneview.svg",
+        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/supabase.svg", "/stripe.svg",],
+        // link: "/", // Commented out link means WIP and link will come soon
+    },
+    {
+        id: 3,
+        title: "Executive Placement Firm – API & Query Tool",
+        des: "Developed a backend API and database to power an internal tool for querying people and company datasets with advanced filtering and search.",
+        // img: "/exec.svg",
+        iconLists: ["/py.svg", "/fastapi.svg", "/sql.svg", "/streamlit.svg"],
+        link: "/", // "/" means there is no link we can provide for case study
+    },
+    {
+        id: 4,
+        title: "Onboarding AI Chatbot",
+        des: "Created a chatbot integrated into Slack and Discord to onboard new hires by answering HR, event, and org-related questions in real-time.",
+        // img: "/chatbot.svg",
+        iconLists: ["/py.svg", "/openai.svg", "/discord.svg", "/azure.svg"],
+        link: "/",  // "/" means there is no link we can provide for case study
+    },
+
 ];
 
 export const testimonials = [
