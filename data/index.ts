@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Aspiring Full-Stack Development with an AI/ML Edge",
+    title: "Aspiring Full-Stack Developer with an AI/ML Edge",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-2 lg:min-h-[60vh] lg:row-span-3",
     imgClassName: "w-full h-full",
@@ -71,10 +71,10 @@ export const projects = [
     {
         id: 1,
         title: "CAMP FASD Website Redesign",
-        des: "Led the full redesign of CAMP - A FASD Community's website, improving accessibility & overall UI/UX,",
+        des: "Led the full redesign of a non-profit's website, improving accessibility & overall UI/UX,",
         img: "/camp.png",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stripe.svg"],
-        link: "https://fasdcamp.org", // replace if you want to use staging
+        link: "https://fasdcamp.org"
     },
     {
         id: 2,
@@ -98,7 +98,7 @@ export const projects = [
         des: "Developed a backend API and database to power an internal tool for querying people and company datasets with advanced filtering and search.",
         // img: "/exec.svg",
         iconLists: ["/py.svg", "/fastapi.svg", "/sql.svg", "/streamlit.svg"],
-        link: "/", // "/" means there is no link we can provide for case study
+        link: "https://www.egonzehnder.com/", // "/" means there is no link we can provide for case study
     },
     {
         id: 4,
