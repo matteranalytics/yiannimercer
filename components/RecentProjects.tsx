@@ -45,9 +45,7 @@ const RecentProjects = () => {
                                     <Image
                                         src={item.img || "/work-in-progress.png"}
                                         alt="cover"
-                                        width={300}
-                                        height={300}
-                                        className="object-contain w-[60%] h-auto"
+                                        fill={true}
                                     />
                                 </div>
                             </div>

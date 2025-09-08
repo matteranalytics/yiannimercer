@@ -80,7 +80,7 @@ export const projects = [
         id: 2,
         title: "Camper App & Admin Mgmt Portal",
         des: "Built a secure multi-tabbed portal using NextJS, Django, MongoDB & Stripe to manage camper applications, emergency contacts, and admin management with payment capabilities.",
-        // img: "/campapp.svg",
+        img: "/ai_app_portal.jpeg",
         iconLists: ["/re.svg", "/tail.svg", "/django.svg", "/mongodb.svg", "/stripe.svg"],
         // link: "/", // Commented out link means WIP and link will come soon
     },
@@ -88,7 +88,7 @@ export const projects = [
         id: 5,
         title: "OneView",
         des: "Building a full-stack SaaS app to unify brokerage, IRA, HSA, and 401k accounts into a single dashboard, with Stripe payments and subscription tiers.",
-        // img: "/oneview.svg",
+        img: "/oneview.png",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/supabase.svg", "/stripe.svg",],
         // link: "/", // Commented out link means WIP and link will come soon
     },
@@ -96,7 +96,7 @@ export const projects = [
         id: 3,
         title: "Executive Placement Firm – API & Query Tool",
         des: "Developed a backend API and database to power an internal tool for querying people and company datasets with advanced filtering and search.",
-        // img: "/exec.svg",
+        img: "/sql_app.png",
         iconLists: ["/py.svg", "/fastapi.svg", "/sql.svg", "/streamlit.svg"],
         link: "https://www.egonzehnder.com/", // "/" means there is no link we can provide for case study
     },
@@ -104,7 +104,7 @@ export const projects = [
         id: 4,
         title: "Onboarding AI Chatbot",
         des: "Created a chatbot integrated into Slack and Discord to onboard new hires by answering HR, event, and org-related questions in real-time.",
-        // img: "/chatbot.svg",
+        img: "/discord_bot.png",
         iconLists: ["/py.svg", "/openai.svg", "/discord.svg", "/azure.svg"],
         link: "/",  // "/" means there is no link we can provide for case study
     },
