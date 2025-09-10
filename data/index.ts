@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Aspiring Full-Stack Developer with an AI/ML Edge",
+    title: "Full-Stack Developer with an AI/ML Edge",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-2 lg:min-h-[60vh] lg:row-span-3",
     imgClassName: "w-full h-full",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Data Scientist & ML Engineer by day, aspiring Full-Stack Developer by night",
+    title: "Data Scientist & ML Engineer by day, Full-Stack Developer by night",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -111,38 +111,12 @@ export const projects = [
 
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
+export const clients = [
+    { src: "/depaul_logo.png", href: "https://www.depaul.edu" },
+    { src: "/camp_logo_clients.png", href: "https://www.fasdcamp.org" },
+    { src: "/Egon_Zehnder_logo.svg", href: "https://www.egonzehnder.com/" },
+    { src: "/convergency_logo.png", href: "https://www.linkedin.com/company/convergency-llc/" },
+]
 
 export const companies = [
   {
@@ -180,29 +154,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Data Scientist - INSIGHT2PROFIT",
+    desc: "Full time data scientist, leveraging data & machine learning to build models that drive revenue growth.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Freelance Data Scientist & AI/ML Engineer - Matter Analytics",
+    desc: "Founded a consultancy to help clients leverage AI/ML for business solutions, from predictive modeling to AI app dev.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance App Dev & Web Design Agency",
+    desc: "Provide end-to-end solutions for clients, from web design to app development through full stack development.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Chief Technology Officer - CAMP FASD",
+    desc: "Directly manage all tech aspects of the non-profit, from website to app dev to IT infrastructure.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

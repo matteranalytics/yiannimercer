@@ -75,6 +75,18 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
+@theme inline {
+  --animate-scroll: scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite;
+ 
+  @keyframes scroll {
+    to {
+      transform: translate(calc(-50% - 0.5rem));
+    }
+  }
+}
+
+
+
 /* ========== CONTAINER ========== */
 @utility container {
   width: 100%;

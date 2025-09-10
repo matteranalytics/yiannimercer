@@ -39,7 +39,7 @@ const Hero = () => {
           />
 
           <p className="text-center text-sm md:text-base lg:text-lg md:tracking-wider mb-4">
-            Hi, I&apos;m Yianni, a Data Scientist, ML Engineer, and aspiring Full Stack Developer
+            Hi, I&apos;m Yianni, a Data Scientist, ML Engineer, and Full Stack Web Developer
           </p>
 
           <a href="#about">
