@@ -161,21 +161,21 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Freelance Data Scientist & AI/ML Engineer - Matter Analytics",
+    title: "Data Scientist & AI/ML Engineer - Matter Analytics",
     desc: "Founded a consultancy to help clients leverage AI/ML for business solutions, from predictive modeling to AI app dev.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev & Web Design Agency",
-    desc: "Provide end-to-end solutions for clients, from web design to app development through full stack development.",
+    title: "Web App Development & Design Agency",
+    desc: "Provide end-to-end solutions for clients, from web design to app development through various tech stacks.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Chief Technology Officer - CAMP FASD",
+    title: "CTO - CAMP FASD",
     desc: "Directly manage all tech aspects of the non-profit, from website to app dev to IT infrastructure.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
