@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -30,6 +31,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" enableSystem={false} forcedTheme="dark">
           {children}
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
